@@ -1,0 +1,86 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+h1 {
+	font-family: arial black, arial;
+	font-style: italic;
+
+}
+
+
+
+body {
+	background:#f5d8b5;
+	color:#382002;
+	font-family:'century gothic', arial black, sans-serif;
+	margin:30px;
+	
+}
+
+footer {
+	font-size: .9em;
+	font-family: 'arial narrow', arial;
+	font-style: italic;
+	
+
+}
+
+figure {
+
+	margin:10px;
+	
+}
+
+figure img {
+	width:100%;
+	border:5px solid #965e36;
+}
+
+figcaption, footer {
+	font-size: 0.75em;
+	
+
+}
+
+
+#container {	
+
+	background:#ffe6c7;
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+	padding:20px;
+	border: 5px solid #965e36;
+	
+}
+
+nav ul {
+	list-style:none;
+
+}
+
+
+nav a {
+	color:#754306;
+
+}
+
+nav a:hover {
+	color:#b36507;
+
+}
+
+
+
+
+
