@@ -38,11 +38,12 @@ footer {
 figure {
 
 	margin:10px;
+	text-align:center;
 	
 }
 
 figure img {
-	width:200px;
+	width:50%;
 	border:5px solid #965e36;
 }
 
