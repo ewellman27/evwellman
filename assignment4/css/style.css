@@ -1,0 +1,153 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+  	line-height: 1.4em;
+	background:#8fb1db;
+}
+
+
+header {
+	padding:10px;
+	font-family:'julius sans one', arial, sans-serif;
+	font-size:0.7em;
+	color:#6189ba;
+	text-align:center;
+}
+
+body {
+	margin:30px;
+	
+}
+
+p {
+	font-family:'bebas neue', sans-serif;
+	font-size:3em;
+	line-height:1;
+	color:#041a36;
+
+}
+
+.first {
+	position:absolute;
+	top:190px;
+	left:30px;
+	font-size:2em;
+}
+.another {
+	position:absolute;
+	top:220px;
+	left:110px;
+}
+.second {
+	position:absolute;
+	rotate:90deg;
+	top:180px;
+	left:130px;
+	font-size:2em;
+}
+.third {
+	font-family:'rubik mono one', arial black, sans-serif;
+	font-size:1.9em;
+	color:#103766;
+	position:absolute;
+	left:230px;
+	top:190px;
+}
+.fourth {
+	position:absolute;
+	left:30px;
+	top:270px;
+	font-size:1.6em;
+}
+.fifth {
+	position:absolute;
+	font-size:2.5em;
+	letter-spacing:25px;
+	left:165px;
+	top:280px;
+}
+.sixth {
+	position:absolute;
+	top:300px;
+	left:510px;
+}
+.seventh {
+	position:absolute;
+	font-size:1.5em;
+	top:335px;
+	left:23px;
+	letter-spacing:5px;
+}
+.eight {
+	font-family:'rubik mono one', arial black, sans-serif;
+	position:absolute;
+	font-size:2em;
+	top:470px;
+	left:-30px;
+	rotate:90deg;
+	color:#103766;
+}
+.nineth {
+	position:absolute;
+	top:400px;
+	left:150px;
+	font-size:1.5em;
+}
+.tenth {
+	position:absolute;
+	top:380px;
+	left:320px;
+	font-size:2em;
+	letter-spacing:20px;
+	text-decoration:underline;
+}
+.eleventh {
+	position:absolute;
+	top:470px;
+	left:140px;
+	font-size:2.5em;
+	font-family:'rubik mono one', arial black, sans-serif;
+	color:#103766;
+}
+.dash {
+	position:absolute;
+	top:580px;
+	left:150px;
+	font-size:1em;
+	
+}
+.last {
+	position:absolute;
+	top:580px;
+	left:200px;
+	font-size:1em;
+	letter-spacing:30px;
+}
+
+
+
+#container {
+	position:absolute;
+	top:25%;
+	left:25%;
+	
+}
+
+footer {
+	position:absolute;
+	top:700px;
+	color:#6189ba;
+	padding:30px;
+}
+
+
+
+
+
