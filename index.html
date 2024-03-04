@@ -14,7 +14,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
 
 	<script> 
-		document.write("hello world")
+		document.getElementById("year").innerHTML = new Date().getFullYear();
 	</script>
 	
 </head>
@@ -57,7 +57,7 @@
 	</main>
 
 	<footer>
-	<p>&#169; Evey Wellman, Spring 2024 </p>
+	<p>&#169; Evey Wellman, <span id="year"> </p>
 	</footer>
 
 
