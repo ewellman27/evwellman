@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>Coolest Dinosoaurus</title>
+	
+	<link rel="stylesheet" href="css/style.css">	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800	&family=Kalam:wght@300;400;700&family=Lobster&family=Poiret+One&display=swap" 	rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800	&family=Kalam:wght@300;400;700	&family=Lobster&family=Poiret+One&family=Protest+Revolution&display=swap" 	rel="stylesheet">
+
+	<script>
+	function randomanswer() {
+		var answers = [
+		"Acrocanthosaurus are the best apex dinosaur",
+		"Ceratosaurus are the best carnivore",
+		"Kentrosaurus are the silliest",
+		"Yutyrannus are the coolest",
+		"Austroraptor is my favorite raptor",
+		"I like Alioramus",
+		"Actually it is Maip",
+		"Iguanodon are the most interesting",
+		"Dryptosaurus is easily the best",
+		"Stegosaurus is the best, its a classic"
+		];
+	var randomIndex = Math.floor(Math.random()*answers.length);
+	var randomAnswer = answers[randomIndex];
+	document.getElementById("message").innerHTML = randomAnswer;
+	}
+	
+	</script>
+	
+</head>
+
+
+<body>
+
+  <div id="container">
+
+<form>
+	<p> what is the best dinosaur?</p>
+	<input type="text">
+	<input type="button" onclick="randomanswer()" value="receive answer">
+</form>
+
+
+	<p id="message"></p>
+
+	<img src="img/dinosaur.JPG" alt="picture of two dinosaurs" class="image">
+	
+	
+
+
+  </div><!-- close "container" -->
+  
+
+</body>
+
+	
+</html> 

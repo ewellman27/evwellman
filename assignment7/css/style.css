@@ -1,0 +1,104 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+	
+	
+}
+
+
+#container {
+	width:400px;
+	margin:auto;
+	padding:30px;
+	
+}
+
+input[type="button"] {
+	width:120px;
+	height:50px;
+	color:#a80707;
+	
+}
+
+p#message {
+	color: #a80707;
+	font-family:arial, sans-serif;
+	font-size:1.3em;
+	transition:all 1s;
+	line-height:30px;
+	
+}
+
+p#message:hover {
+	font-family:"Protest Revolution", arial, sans-serif;
+	font-size:2em;
+}
+	
+
+form {
+	font-family:Kalam, sans-serif;
+	font-size:2.5em;
+	line-height:50px;
+	color:#a80707;
+	transition:all 1s;
+}
+
+form:hover {
+	font-size:3em;
+}
+
+.image {
+	padding:30px;
+	width:400px;
+}
+
+
+
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+	
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	
+	
+	
+} /* closes 1024px+ */
+
+
+
