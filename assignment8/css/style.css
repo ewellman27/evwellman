@@ -1,0 +1,158 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+	background:#400000;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+	padding:20px;
+	width:280px;
+	margin:auto;
+	font-family:"Noto Sans Mono", arial, sans-serif;
+	line-height:1em;
+}
+
+section {
+	color:#400000;
+	
+}	
+
+
+header {
+	text-align:center;
+	font-family:"Cinzel Decorative", arial, sans-serif;
+	font-size: 2em;
+	padding:10px;
+	color:#400000;
+}
+
+
+#container {
+	padding:10px;
+	background:#fff5f5;	
+	
+}
+
+footer {
+	font-size:0.8em;
+	text-align:center;
+}
+
+
+iframe {
+	width:100%;
+}
+
+.kitty {
+	width:200px;
+}
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+
+header {
+	margin-top:30px;
+}
+
+body {
+	width:1300px;
+}
+
+section {
+	padding:20px;
+	width:470px;
+	margin-left:30px;
+	font-size:1.2em;
+	line-height:1.2em;
+}
+
+.kitty {
+	width:500px;
+	margin-top:20px;
+}
+
+
+main {
+	display:flex;
+}
+
+figure.responsive {
+	position:absolute;
+	top:530px;
+	width:560px;
+	height:315px;
+}
+
+	
+
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+header {
+	margin-top:50px;
+	font-size:2.3em;
+}
+
+body {
+	width:2000px;
+}
+
+section {
+	padding:40px;
+	width:800px;
+	margin-left:40px;
+	font-size:1.2em;
+	line-height:1.2em;
+}
+
+.kitty {
+	width:500px;
+	margin-top:50px;
+}
+
+
+main {
+	display:flex;
+}
+
+figure.responsive {
+	position:absolute;
+	top:200px;
+	margin-left:1500px;
+	width:450px;
+}
+	
+	
+} /* closes 1024px+ */
+
+
+
