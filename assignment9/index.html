@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<title>Cat Jumpscare</title>
+	
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@	400;700;900&family=Dosis:wght@200..800&family=Kalam:wght@300;400;700	&family=Lobster&family=Noto+Sans+Mono:wght@100..900	&family=Poiret+One&family=Protest+Revolution&family=Rubik+Mono+One&family=Space+Mon	o:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	
+</head>
+
+
+<body>
+
+  <div id="container">
+
+<header>Click the cat!</header>
+
+<figure>
+
+<img src="img/deckerfar.jpg" alt="my cat, Decker, far away" class="decker1">
+
+<img src="img/deckerclose.jpg" alt="my cat, Decker, close to camera" class="decker2">
+
+</figure>
+
+<p class="para">The handsomest cat is here!</p>
+
+<p class="heart"><3</p>
+
+
+
+  </div><!-- close "container" -->
+  
+  <!-- Link to jQuery on Google CDN-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+
+<script>
+$('img.decker2').hide();
+
+  $(document).ready(function() {
+
+$('img.decker1').click(function(){
+
+	$('img.decker2').fadeIn();
+
+});//close click function
+
+  }); //close .ready()
+</script>
+
+<script>
+$('p.para').hide();
+
+  $(document).ready(function() {
+
+$('img.decker2').click(function(){
+
+	$('p.para').fadeIn();
+
+});//close click function
+
+  }); //close .ready()
+</script>
+
+<script>
+$('p.heart').hide();
+
+  $(document).ready(function() {
+
+$('p.para').click(function(){
+
+	$('p.heart').fadeIn();
+
+});//close click function
+
+  }); //close .ready()
+</script>
+
+</body>
+	
+</html> 

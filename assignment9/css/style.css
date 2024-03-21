@@ -1,0 +1,104 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+	background:black;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+	border:white solid 3px;
+}
+
+header {
+	font-size:2em;
+	font-family:'Rubik Mono One', arial, sans-serif;
+	line-height:1.2em;
+	color:white;
+}
+
+#container {
+	width:200px;
+	padding:20px;
+	text-align:center;
+	margin:auto;
+	background:black;
+}
+
+.decker1 {
+	position:relative;
+	top:30px;
+	left:-40px;
+	width:200px;
+	border:white solid 3px;
+}
+
+.decker2 {
+	position:absolute;
+	top:190px;
+	left:25px;
+	width:220px;
+	border:white solid 3px;
+}
+
+.para {
+	position:relative;
+	top:30px;
+	left:5px;
+	font-family:'Rubik Mono One', arial, sans-serif;
+	line-height:1em;
+	color:white;
+}
+
+.heart {
+	position:relative;
+	top:40px;
+	left:5px;
+	font-family:'Rubik Mono One', arial, sans-serif;
+	line-height:1em;
+	color:white;
+	
+}
+
+
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+	
+	
+	
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+	
+	
+	
+} /* closes 1024px+ */
+
+
+
