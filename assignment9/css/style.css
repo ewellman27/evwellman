@@ -83,7 +83,38 @@ You can adjust the min-width numbers below, and add as many new media queries as
 
 /* Minimum width for laptops. */
 @media all and (min-width: 769px) {
-	
+#container {
+	width:600px;
+}
+
+.decker1 {
+	position:relative;
+	left:0px;
+	width:350px;
+	border:white solid 5px;
+
+}
+
+.decker2 {
+	position:absolute;
+	top:140px;
+	left:547px;
+	width:380px;
+}
+
+.para {
+	position:absolute;
+	top:620px;
+	left:465px;
+	font-size:1.5em;
+}
+
+.heart {
+	position:absolute;
+	top:45px;
+	left:710px;
+	font-size:1.7em;
+}	
 	
 	
 	
@@ -94,6 +125,38 @@ You can adjust the min-width numbers below, and add as many new media queries as
 
 /* Minimum width for desktop screens. */
 @media all and (min-width: 1024px) {
+#container {
+	width:1000px;
+}
+
+.decker1 {
+	position:relative;
+	left:0px;
+	width:350px;
+	border:white solid 5px;
+
+}
+
+.decker2 {
+	position:absolute;
+	top:140px;
+	left:547px;
+	width:380px;
+}
+
+.para {
+	position:absolute;
+	top:620px;
+	left:465px;
+	font-size:1.5em;
+}
+
+.heart {
+	position:absolute;
+	top:45px;
+	left:710px;
+	font-size:1.7em;
+}
 	
 	
 	
