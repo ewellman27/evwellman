@@ -253,6 +253,7 @@ figure img {
   border-radius: 5px;
   background-color: #303030;
   padding: 20px;
+	width:500px;
 	margin:auto;
 }
 
@@ -347,7 +348,15 @@ figure img {
 	line-height:1em;
 	margin-bottom:40px;
 }	
+
 	
+.container {
+  border-radius: 5px;
+  background-color: #303030;
+  padding: 20px;
+	width:500px;
+	margin:auto;
+}
 	
 } /* closes 1024px+ */
 
