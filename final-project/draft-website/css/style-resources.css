@@ -1,0 +1,408 @@
+/* Basic CSS resets -- leveling slight inconsistencies in browsers */
+html, body {
+	margin:0px;
+	padding:0px;
+	height:100%;
+}
+
+html {
+		/* Standard text-settings below */
+	font-size: 1em;
+    line-height: 1.4em;
+	background:black;
+}
+
+
+
+/* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
+
+body {
+	
+	
+}
+
+header {
+	font-family:'Almendra SC', Times new roman;
+	font-size:4em;
+	letter-spacing:10px;
+	line-height:1em;
+	color:white;
+	margin-top:90px;
+}
+
+#logo {
+	position:absolute;
+	width:70px;
+	height:80px;
+	top:40px;
+	left:30px;
+	border-radius:50%;
+	background:white;
+	
+}
+
+#logo:hover {
+	background:red;
+}
+
+#container {
+	width:400px;
+	margin:auto;
+	padding:30px;
+	text-align:center;
+	margin-top:20px;
+}
+
+#nav ul {
+	list-style:none;
+	padding:30px;
+	margin-top:10px;
+	
+}
+
+#nav li {
+	border:1px solid white;
+	padding:15px;
+	margin-top:20px;
+
+}
+
+#nav a {
+	color:white;
+	font-size:1.5em;
+	text-decoration:none;
+	font-family:arial, sans-serif;
+	text-align:center;
+	
+}
+
+#nav a:hover {
+	color:red;
+}
+
+.intro {
+	text-indent:50px;
+	font-family:arial, sans-serif;
+	color:white;
+	text-align:left;
+	width:400px;
+	margin:auto;
+	font-size:1.8em;
+	line-height:1em;
+	padding:20px;
+}
+
+figure {
+	margin:40px;
+
+}
+
+figure img {
+	width:100%;
+	border: 3px solid white;
+	border-radius:3%;
+	
+}	
+
+
+a {
+	color:red;
+}
+
+.info {
+	text-indent:50px;
+	font-family:arial, sans-serif;
+	color:white;
+	text-align:left;
+	width:400px;
+	margin:auto;
+	font-size:1.8em;
+	line-height:1em;
+	padding:20px;
+}
+
+	
+.info2 {
+	text-indent:50px;
+	font-family:arial, sans-serif;
+	color:white;
+	text-align:left;
+	width:400px;
+	margin:auto;
+	font-size:1.8em;
+	line-height:1em;
+	padding:20px;
+}
+
+
+
+footer {
+	color:white;
+	font-family: arial;
+	font-size:.9em;
+	padding:20px;
+}
+
+
+
+/* ========================================
+MEDIA QUERIES!
+You can adjust the min-width numbers below, and add as many new media queries as you need.
+======================================== */
+
+
+
+/* Minimum width for laptops. */
+@media all and (min-width: 769px) {
+
+#container {
+	width:1000px;
+	margin:auto;
+	padding:30px;
+	text-align:center;
+	margin-top:50px;
+}
+
+header {
+	font-family:'Almendra SC', Times new roman;
+	font-size:4em;
+	letter-spacing:10px;
+	line-height:1em;
+	color:white;
+	margin-top:40px;
+}
+
+#logo {
+	position:absolute;
+	width:90px;
+	height:100px;
+	top:60px;
+	left:100px;
+	border-radius:50%;
+	background:white;
+	
+}
+
+#logo:hover {
+	background:red;
+}
+
+#nav ul {
+	list-style:none;
+	padding:30px;
+	margin-top:20px;
+
+	
+}
+
+#nav li {
+	display:inline;
+	border:1px solid white;
+	padding:15px;
+	margin-right:15px;
+
+}
+
+#nav a {
+	color:white;
+	font-size:1.5em;
+	text-decoration:none;
+	font-family:arial, sans-serif;
+	text-align:center;
+	
+	
+}
+
+#nav a:hover {
+	color:red;
+}
+
+figure {
+	margin:40px;
+}
+
+figure img {
+	width:50%;
+	border: 3px solid white;
+	border-radius:3%;
+	
+}
+
+.intro {
+	text-indent:50px;
+	font-family:arial, sans-serif;
+	color:white;
+	text-align:left;
+	width:800px;
+	margin:auto;
+	font-size:1.5em;
+	line-height:1em;
+	margin-bottom:40px;
+}
+
+.info {
+	text-indent:50px;
+	font-family:arial, sans-serif;
+	color:white;
+	text-align:left;
+	width:800px;
+	margin:auto;
+	font-size:1.5em;
+	line-height:1em;
+	padding:20px;
+}
+
+	
+.info2 {
+	text-indent:50px;
+	font-family:arial, sans-serif;
+	color:white;
+	text-align:left;
+	width:800px;
+	margin:auto;
+	font-size:1.5em;
+	line-height:1em;
+	padding:20px;
+}
+
+.responsive {
+	height:500px;
+}
+
+iframe {
+	width:50%;
+	height:50%;
+}
+
+
+	
+} /* closes 769px+ */
+
+
+
+
+/* Minimum width for desktop screens. */
+@media all and (min-width: 1024px) {
+	
+#container {
+	width:2000px;
+	margin:auto;
+	padding:30px;
+	text-align:center;
+	margin-top:50px;
+}
+
+header {
+	font-family:'Almendra SC', Times new roman;
+	font-size:5em;
+	letter-spacing:10px;
+	line-height:1em;
+	color:white;
+	margin-top:40px;
+}
+
+#logo {
+	position:absolute;
+	width:130px;
+	height:140px;
+	top:80px;
+	left:170px;
+	border-radius:50%;
+	background:white;
+	
+}
+
+#logo:hover {
+	background:red;
+}
+
+#nav ul {
+	list-style:none;
+	padding:30px;
+	margin-top:20px;
+	
+}
+
+#nav li {
+	display:inline;
+	border:1px solid white;
+	padding:30px;
+	margin-right:20px;
+
+}
+
+#nav a {
+	color:white;
+	font-size:2em;
+	text-decoration:none;
+	font-family:arial, sans-serif;
+	text-align:center;
+	
+}
+
+#nav a:hover {
+	color:red;
+}
+
+figure {
+	margin:40px;
+}
+
+figure img {
+	width:30%;
+	border: 3px solid white;
+	border-radius:3%;
+	
+}
+
+.intro {
+	text-indent:50px;
+	font-family:arial, sans-serif;
+	color:white;
+	text-align:left;
+	width:1000px;
+	margin:auto;
+	font-size:1.8em;
+	line-height:1em;
+	margin-bottom:40px;
+}	
+
+.info {
+	text-indent:50px;
+	font-family:arial, sans-serif;
+	color:white;
+	text-align:left;
+	width:1000px;
+	margin:auto;
+	font-size:1.8em;
+	line-height:1em;
+	padding:20px;
+}
+
+	
+.info2 {
+	text-indent:50px;
+	font-family:arial, sans-serif;
+	color:white;
+	text-align:left;
+	width:1000px;
+	margin:auto;
+	font-size:1.8em;
+	line-height:1em;
+	padding:20px;
+}
+	
+.responsive {
+	height:1000px;
+}
+
+iframe {
+	width:30%;
+	height:30%;
+}
+	
+	
+} /* closes 1024px+ */
+
+
+
