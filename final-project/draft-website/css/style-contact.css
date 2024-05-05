@@ -249,7 +249,12 @@ figure img {
 }
 
 
-
+.container {
+  border-radius: 5px;
+  background-color: #303030;
+  padding: 20px;
+	width:80%;
+}
 
 	
 } /* closes 769px+ */
